@@ -1988,6 +1988,7 @@ data-styled.g14[id="Action-rui__sc-1q34a5u-0"] {
 }
 
 .custom-button {
+    cursor: pointer;
     font-family: Inter;
     font-size: 18px;
     font-weight: 500;
