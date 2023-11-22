@@ -4,7 +4,46 @@
     padding: 0;
     font: inherit;
 }
-
+.whatsapp.open
+{
+    display:none;
+}
+.whatsapp
+{
+    position:fixed;
+    display: block;
+    right:25px;
+    bottom: 25px;
+    z-index:1;
+    padding:20px;
+}
+.whats-button
+{
+    font-size: 48px;
+    color:#25d366;
+    display:inline-block;
+    transition: all 400ms;
+}
+.whats-text
+{
+    position: absolute;
+    top:0;
+    left:4px;
+    font-family:"Inter",sans-serif;
+    opacity: 0;
+    font-weight: bold;
+    transform:rotateZ(20deg) translateX(10px);
+    transition:all 400ms;
+}
+.whatsapp .whats-button:hover
+{
+    transform:scale(1.2);
+}
+/* .whatsapp:hover .whats-button:hover+span
+{
+    opacity:1;
+    transform:rotateZ(0deg) translateX(0px);
+} */
 
 /*!sc*/
 
