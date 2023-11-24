@@ -70,7 +70,22 @@
     height: 70px;
     margin: 0 80px;
 }
-
+.scroll{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.scroll-in{
+    display: flex;
+    gap:35px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    overflow: hidden;
+}
+.scroll-in img {
+    height: 70px;
+}
 @keyframes slide {
     from {
         transform: translateX(0);
