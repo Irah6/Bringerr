@@ -38,21 +38,17 @@
 
 
     <script>
-        function change() {
+ function change() {
             console.log("Change function called");
             const body = document.querySelector("body");
             var element = document.querySelector(".custom-nav");
             var c = document.querySelector(".bqwQoF");
-            var coll = document.querySelector(".scroller");
             var hide = document.querySelector(".custom-hide")
-            var whatsapp = document.querySelector(".whatsapp")
                 // Add console.log statements to check if the elements are being found correctly.
-            console.log("element:", element);
-            console.log("c:", c);
+                var whatsapp = document.querySelector(".whatsapp")
             c.classList.toggle("open");
-            whatsapp.classList.toggle("open");
             element.classList.toggle("open");
-            coll.classList.toggle("open");
+            whatsapp.classList.toggle("open");
             if (c.classList.contains("open")) {
                 // Disable scroll 
                 body.style.overflow = "hidden";
