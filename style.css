@@ -2201,7 +2201,7 @@ data-styled.g14[id="Action-rui__sc-1q34a5u-0"] {
     padding-bottom: 10px;
     background: #191C1F;
     color: #FFFFFF;
-    border-radius: var(--rui-radius-button-sm);
+    
 }
 
 .custom-button:hover {
@@ -2268,9 +2268,6 @@ data-styled.g14[id="Action-rui__sc-1q34a5u-0"] {
 
 /*!sc*/
 
-.gPKCMx:hover {
-    --rui-color-state-overlay: rgb(var(--rui-color-channel-black) / 0.08);
-}
 
 
 /*!sc*/
