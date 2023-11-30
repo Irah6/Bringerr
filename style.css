@@ -1,3 +1,7 @@
+/* custom styling */
+.border-round-full{
+    border-radius: 999px !important;
+}
 .eMtgdA {
     box-sizing: border-box;
     margin: 0;
@@ -102,7 +106,7 @@
 .scroll{
     display: flex;
     flex-direction: column;
-    gap:50px;
+    gap:70px;
 }
 .scroll-in{
     display: flex;
@@ -114,8 +118,9 @@
     /*animation: slideImages 10s linear infinite; */
 }
 .scroll-in img {
+    width: 100px;
     height: 70px;
-    
+    object-fit: contain;
 }
 
 @keyframes slideImages {
@@ -206,6 +211,76 @@
     gap:60px; */
 }
 
+
+
+.how-to-use-bringer{
+    display: flex;
+    width: 100%;
+} 
+.how-to-use-bringer .section-right{
+    color: #505A63;
+    
+text-align: center;
+font-family: Inter;
+font-size: 54px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px; /* 63.333% */
+letter-spacing: -0.32px;
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.how-to-use-bringer .section-right li{
+    color: #191C1F;
+text-align: left;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+max-width: 70%;
+margin-bottom: 30px;
+}
+
+.how-to-use-bringer .section-right h6{
+    margin-bottom: 40px;
+}
+
+.how-to-use-bringer .section-left{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 50%;
+}
+
+.how-to-use-bringer .section-left img{
+    margin: 10px;
+    max-width: 60%;
+    height: auto;
+    border-radius: 30px;
+}
+
+@media (max-width: 720px) {
+    .section-left {
+      display: none !important;
+    }
+    .how-to-use-bringer .section-right li{
+        color: #191C1F;
+    text-align: left;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 100%;
+    margin-bottom: 30px;
+    }
+    .how-to-use-bringer .section-right{
+        max-width: 80%;
+    }
+  }
+/* #End of custom styling */
 .hTFxko {
     box-sizing: border-box;
     margin: 0;
@@ -2113,7 +2188,7 @@ data-styled.g14[id="Action-rui__sc-1q34a5u-0"] {
 .custom-button {
     cursor: pointer;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: -0.3199999928474426px;
@@ -2696,7 +2771,7 @@ data-styled.g40[id="Position__Relative-rui__sc-nh2ik7-3"] {
 
 .dfMyAW {
     font-family: 'Figtree';
-    font-weight: 900;
+    font-weight: 600;
     font-size: 2.5rem;
     /* line-height: 1; */
     -webkit-letter-spacing: -0.0375rem;
@@ -2785,7 +2860,7 @@ data-styled.g40[id="Position__Relative-rui__sc-nh2ik7-3"] {
 
 @media screen and (min-width:720px) {
     .dfMyAW {
-        font-size: clamp(3rem, 1.7999999999999998rem + 2.666666666666667vw, 5rem);
+        font-size: 60px;
     }
 }
 
@@ -2813,7 +2888,7 @@ data-styled.g40[id="Position__Relative-rui__sc-nh2ik7-3"] {
 
 .gsaalT {
     font-family: Inter;
-    font-size: 23px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
@@ -2823,17 +2898,44 @@ data-styled.g40[id="Position__Relative-rui__sc-nh2ik7-3"] {
 
 /*!sc*/
 
-@media screen and (min-width:400px) {}
+@media screen and (min-width:400px) {
+    .gsaalT {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
 
 
 /*!sc*/
 
-@media screen and (min-width:720px) {}
+@media screen and (min-width:720px) {
+    .gsaalT {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
 
 
 /*!sc*/
 
-@media screen and (min-width:1024px) {}
+@media screen and (min-width:1024px) {
+    .gsaalT {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
 
 
 /*!sc*/
@@ -4412,7 +4514,7 @@ data-styled.g481[id="sc-85172584-0"] {
 
 .iriJld {
     font-family: Inter;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: -0.3199999928474426px;
@@ -7009,7 +7111,7 @@ data-styled.g725[id="sc-4baf7d1c-1"] {
 
 .jFBAQk {
     font-family: Figtree;
-    font-size: 60px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: -0.800000011920929px;
@@ -7020,7 +7122,17 @@ data-styled.g725[id="sc-4baf7d1c-1"] {
     white-space: pre-wrap;
     /* word-break: break-word; */
 }
+@media screen and (max-width:720px) {
+    .jFBAQk {
+        font-size: 32px;
+        line-height: 42px;
 
+    }
+    .jrZvPu{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
 
 /*!sc*/
 
