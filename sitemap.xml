@@ -1,21 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-
-<url>
-  <loc>https://photo-owl.github.io/Bringer-Landing/</loc>
-  <lastmod>2023-11-20T14:24:07+00:00</lastmod>
-  <priority>0.6</priority>
-</url>
-<url>
-<loc>https://photo-owl.github.io/Bringer-Landing/pro.html</loc>
-<lastmod>2023-11-20T14:24:07+00:00</lastmod>
-<priority>1</priority>
-</url>
-
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+  <loc>https://bringerapp.com/</loc>
+  <priority>0.8</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2023-12-20</lastmod>
+  <image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/xmark-solid.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/sample1.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/star1.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/sample2.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/whatsapp.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/how%20to.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/cto.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/5aY5jj8BDvCa0TtLeezBDHMDSwo.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/aEkX7tkM9ok9dmp8yGZaebcg.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/Group%20669561.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/madras.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/OpZGYTHFKUyZCgOtDpxT2oYwgQ.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/OFPHJOQ9KWU2SoVIqtT7Warywkg.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/Screenshot%202023-11-24%20214924.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/Tn3Ze6Ff7hTBsJnG3CBJGmUPy4.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/WdPi4jXlAndi4L1bNZolVJbqc.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/xDbH8cudu4w6ihwhaSoMRTJTtQA.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/YJp4R4CfpxFHulFZhWd99iBgBo.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/ZK13L02lor6GbiPRtanoLrrYs.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/first.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/Frame_1.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/Frame_2.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/event%20carousel/frame_3.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/LogoInstagram.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/icons/LogoLinkedIn.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://bringerapp.com/Bringer-assets/assets/flags/IN.webp</image:loc>
+	</image:image>
+  </url>
+  <url>
+  <loc>https://bringerapp.com/pro</loc>
+  <priority>0.8</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2023-12-20</lastmod>
+  </url>
+  <url>
+  <loc>https://bringerapp.com/./pro.html</loc>
+  <priority>0.8</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2023-12-20</lastmod>
+  </url>
+  <url>
+  <loc>https://bringerapp.com/pro.html</loc>
+  <priority>0.8</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2023-12-20</lastmod>
+  </url>
+  <!-- <url>
+  <loc>https://bringerapp.com/en-IN/legal/website-terms-and-conditions/</loc>
+  <priority>0.8</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2023-12-20</lastmod>
+  </url> -->
+  <url>
+  <loc>https://bringerapp.com/privacy-policy</loc>
+  <priority>0.8</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2023-12-20</lastmod>
+  </url>
 </urlset>
