@@ -90,18 +90,18 @@
   <changefreq>always</changefreq>
   <lastmod>2023-12-20</lastmod>
   </url>
-  <url>
+  <!-- <url>
   <loc>https://bringerapp.com/./pro.html</loc>
   <priority>0.8</priority>
   <changefreq>always</changefreq>
   <lastmod>2023-12-20</lastmod>
-  </url>
-  <url>
-  <loc>https://bringerapp.com/pro.html</loc>
+  </url> -->
+  <!-- <url> -->
+  <!-- <loc>https://bringerapp.com/pro.html</loc>
   <priority>0.8</priority>
   <changefreq>always</changefreq>
   <lastmod>2023-12-20</lastmod>
-  </url>
+  </url> -->
   <!-- <url>
   <loc>https://bringerapp.com/en-IN/legal/website-terms-and-conditions/</loc>
   <priority>0.8</priority>
