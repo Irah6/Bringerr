@@ -1,0 +1,132 @@
+body {
+    font-family: Figtree, sans-serif;
+}
+
+#page {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#noscript {
+    font-weight: 600;
+    color: #F00;
+}
+
+#header {
+    padding: 16px 0;
+}
+
+#bringer-logo {
+    border-radius: 7px;
+    vertical-align: bottom;
+}
+
+#bringer {
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 8px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7FBFF;
+    padding-left: 32px;
+    border-radius: 15px;
+    margin-bottom: 16px;
+}
+
+#hero-text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.327px;
+}
+
+#hero-img {
+    padding-left: 8px;
+}
+
+#greet {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.327px;
+    padding: 8px 0;
+}
+
+#desc {
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 300;
+    padding: 8px 0;
+}
+
+#pro-form .form-field {
+    padding: 16px 0;
+}
+
+#pro-form label {
+    display: block;
+    padding: 8px 0;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+#pro-form input {
+    display: block;
+    padding: 8px 0;
+    width: 50%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #CCCCCC;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.25;
+    font-weight: 300;
+    transition: border .2s ease-in-out;
+}
+
+#pro-form input:focus {
+    border-bottom: 1px solid #0368FF;
+}
+
+#pro-form .form-error {
+    display: none;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.25;
+    margin-top: 10px;
+    color: #DC143C;
+}
+
+#pro-form button {
+    padding: 8px 22px;
+    background-color: #0368FF;
+    color: #F2F0FF;
+    font-family: inherit;
+    font-weight: 600;
+    border-radius: 8px;
+    border-color: transparent;
+    transition: background-color .2s ease-in-out;
+}
+
+#pro-form button:disabled {
+    cursor: not-allowed;
+    background-color: #0368FF80;
+}
+
+@media only screen and (max-width: 370px) {
+    #hero {
+        display: none;
+    }
+}
