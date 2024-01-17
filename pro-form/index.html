@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Bringer Pro: Sign Up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="assets/bringer.png" rel="icon">
+</head>
+<body>
+    <div id="page">
+        <noscript>
+            <div id="noscript">This page requires Javascript to work.</div>
+        </noscript>
+        <div id="header">
+            <img alt="Bringer logo" id="bringer-logo" src="assets/bringer.png" height="32" width="32px">
+            <a href="https://bringerapp.com" id="bringer">Bringer</a>
+        </div>
+        <div id="hero">
+            <div id="hero-text">
+                Sign up for Bringer Pro!
+            </div>
+            <div>
+                <img id="hero-img" src="assets/people.png" width="210" height="188">
+            </div>
+        </div>
+        <div id="greet">
+            Hi there,
+        </div>
+        <div id="desc">
+            Fill up this form to request for a Pro account!<br>
+            Our team will contact you for further details.
+        </div>
+        <form id="pro-form">
+            <div class="form-field">
+                <label for="form-name">Name</label>
+                <input id="form-name" name="form_name" type="text" required>
+                <div id="name-err" class="form-error">Enter a valid name.</div>
+            </div>
+            <div class="form-field">
+                <label for="form-ph-no">Phone number</label>
+                <input id="form-ph-no" name="form_ph_no" type="tel" required>
+                <div id="ph-no-err" class="form-error">Enter a valid phone number.</div>
+            </div>
+            <div class="form-field">
+                <button id="submit-btn" type="submit">SUBMIT</button>
+                <div id="submit-err" class="form-error">Fix all the errors.</div>
+            </div>
+        </form>
+
+        <script src="script.js" defer></script>
+    </div>
+</body>
