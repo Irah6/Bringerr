@@ -175,7 +175,27 @@
     z-index: 0;
     right: 20px;
 }
-
+.cone{
+    position: absolute;
+    top:60px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #E0EFFF;
+}
+.explicit
+{
+    background-color: #E0EFFF;
+    border-radius:10px;
+    padding: 20px;
+    position:absolute; top:80px;text-align: center; color: 000000; 
+    word-wrap: break-word;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    word-spacing: 2px;
+    font-size: .9rem;
+}
 .custom-lead {
     background: linear-gradient(99.5deg, #FFD400 -23.29%, #FFD204 10.07%, #0CA8FE 81.06%, #0CA9FF 117.9%);
     background-size: cover;
