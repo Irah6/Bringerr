@@ -195,6 +195,7 @@
     font-weight: 600;
     word-spacing: 2px;
     font-size: .9rem;
+    display: none;
 }
 .custom-lead {
     background: linear-gradient(99.5deg, #FFD400 -23.29%, #FFD204 10.07%, #0CA8FE 81.06%, #0CA9FF 117.9%);
@@ -390,13 +391,27 @@ margin-bottom: 30px;
 
 
 /*!sc*/
-
+.cone{
+    display: none;
+}
 @media screen and (min-width:1024px) {
     .bqwQoF {
         display: none;
     }
     .custom-hide.open {
         display: none;
+    }
+    .explicit 
+    {
+        display: block;
+    }
+    .check
+{
+    display: none !important;
+}
+    .cone
+    {
+        display: block;
     }
 }
 
@@ -6108,6 +6123,10 @@ data-styled.g529[id="sc-f691958d-1"] {
     }
     .custom-nav.open {
         display: none;
+    }
+    .uibutton{
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
