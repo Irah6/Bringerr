@@ -10,64 +10,11 @@ const formName = document.querySelector('#pro-form #form-name');
 /** @type {HTMLInputElement?} */
 const phNo = document.querySelector('#pro-form #form-ph-no');
 
-const crmAPIBase = "https://bringer.pipedrive.com/api";
-const crmKey = "75bd5570d429a06ef9053fbbbf4872ae21f554a3";
-const freshLeadId = "902ef5d0-b54d-11ee-923c-759d3bebf455";
+
+const cloudFuncLink = 'https://us-central1-your-photos-dev.cloudfunctions.net/addLead';
+
 
 const invalidForm = [false, false];
-
-/**
- * @param {string} personName
- * @param {string} phoneNo
- * @returns {Promise<number?>} person_id
- */
-async function crmAPIAddPerson(personName, phoneNo) {
-    const params = (new URLSearchParams({api_token: crmKey})).toString();
-    const reqURL = `${crmAPIBase}/v1/persons?${params}`;
-
-    const reply = await fetch(reqURL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            "name": personName,
-            phone: [{ value: phoneNo }],
-        }),
-    });
-
-    if (reply.status === 201) {
-        /** @type {Record<string, any>} */
-        const resp = await reply.json();
-        if (resp['success']) {
-            return resp['data']['id'];
-        } else {
-            return null;
-        }
-    }
-    return null;
-}
-
-/**
- * @param {string} personName
- * @param {number} personId
- */
-async function crmAPIAddLead(personName, personId) {
-    const params = (new URLSearchParams({api_token: crmKey})).toString();
-    const reqURL = `${crmAPIBase}/v1/leads?${params}`;
-
-    return await fetch(reqURL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            title: `${personName} lead`,
-            label_ids: [freshLeadId],
-            person_id: personId,
-        }),
-    });
-}
 
 formName?.addEventListener('change', ev => {
     if (!ev.target) return;
@@ -117,14 +64,14 @@ form?.addEventListener('submit', ev => {
     const formData = new FormData(form);
 
     /** @type {(string | null)[]} */
-    const [userName, userPhNo] = [
+    const [personName, phoneNo] = [
         /// @ts-expect-error
         formData.get('form_name'),
         /// @ts-expect-error
         formData.get('form_ph_no'),
     ];
 
-    if (! (userName && userPhNo)) {
+    if (! (personName && phoneNo)) {
         console.error("State error: Somehow either of the fields are missing!");
         return;
     }
@@ -135,19 +82,13 @@ form?.addEventListener('submit', ev => {
     /// @ts-expect-error
     submitBtn.disabled = true;
 
-    crmAPIAddPerson(userName, userPhNo)
-        .then(personId => {
-            if (personId === null) {
-                err.style.display = 'block';
-                err.innerText = "Cannot add person to server.";
-                return;
-            }
-
-            return crmAPIAddLead(userName, personId);
-        })
-        .then(() => {
-            form?.reset();
-            alert('Saved your details!');
-            window.history.back();
-        });
+    fetch(cloudFuncLink, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ personName, phoneNo }),
+    }).then(() => {
+        form?.reset();
+        alert('Saved your details!');
+        window.history.back();
+    });
 });
