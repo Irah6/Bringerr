@@ -10,7 +10,9 @@ const formName = document.querySelector('#pro-form #form-name');
 /** @type {HTMLInputElement?} */
 const phNo = document.querySelector('#pro-form #form-ph-no');
 
+
 const cloudFuncLink = 'https://us-central1-your-photos-dev.cloudfunctions.net/addLead';
+
 
 const invalidForm = [false, false];
 
