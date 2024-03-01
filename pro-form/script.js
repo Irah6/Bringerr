@@ -11,7 +11,7 @@ const formName = document.querySelector('#pro-form #form-name');
 const phNo = document.querySelector('#pro-form #form-ph-no');
 
 
-const cloudFuncLink = 'https://us-central1-your-photos-dev.cloudfunctions.net/addLead';
+const cloudFuncLink = 'https://us-central1-yourphotos-c5382.cloudfunctions.net/addLead';
 
 
 const invalidForm = [false, false];
